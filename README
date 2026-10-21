@@ -1,0 +1,39 @@
+# Campus Mart - Aplikasi Mobile E-Commerce Kampus
+
+**Campus Mart** adalah aplikasi mobile berbasis Flutter yang dikembangkan sebagai Proyek Akhir mata kuliah Pemrograman Mobile. Aplikasi ini dirancang untuk memudahkan sivitas akademika dalam melakukan jual beli produk, manajemen inventaris, fitur favorit, keranjang belanja, serta komunikasi interaktif antar pengguna di lingkungan kampus.
+
+---
+
+## 👥 Anggota Kelompok
+* **Nama / NIM**: Rusdiana (2409106021)
+* *(Tambahkan anggota kelompok lainnya jika ada)*
+
+---
+
+## 🚀 Fitur Utama Aplikasi
+1. **Autentikasi Pengguna**: Sistem Login dan Register untuk keamanan serta manajemen akun pengguna.
+2. **Katalog Produk**: Menampilkan daftar produk lengkap dengan detail harga, kategori, dan gambar produk (seperti tas, tumbler, mouse, dll.).
+3. **Keranjang & Pembelian**: Fitur pengelolaan transaksi belanja dan pemesanan produk.
+4. **Wishlist / Produk Favorit**: Memungkinkan pengguna menyimpan produk pilihan ke dalam daftar favorit.
+5. **Chat Interaktif**: Fitur komunikasi langsung antara pembeli dan penjual di lingkungan kampus.
+6. **Manajemen Tema**: Pengaturan tampilan antarmuka aplikasi (*App Theme*).
+
+---
+
+## 📁 Struktur Folder Project
+Berikut adalah struktur direktori utama dari project Flutter ini:
+```text
+campus_mart/
+│
+├── assets/             # Berisi file aset gambar (produk, ikon, dll)
+├── lib/
+│   ├── campus_mart/    # Modul inti aplikasi
+│   ├── models/         # Model data (struktur data produk, user, dll)
+│   ├── pages/          # Halaman UI (auth, login, main_page, dll)
+│   ├── providers/      # State management (auth, chat, favorite, product, purchase)
+│   ├── theme/          # Pengaturan tema aplikasi (app_theme.dart)
+│   ├── utils/          # Fungsi pendukung/helper
+│   ├── widgets/        # Komponen UI kustom yang dapat digunakan kembali
+│   └── main.dart       # Titik awal (entry point) aplikasi
+├── pubspec.yaml        # Konfigurasi dependensi dan aset project
+└── README.md           # Dokumentasi project
